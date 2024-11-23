@@ -42,7 +42,7 @@ jobs:
         run: npm run test
 
   deploy:
-    runs-on: ubuntu-latestruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: test
 
     steps:
